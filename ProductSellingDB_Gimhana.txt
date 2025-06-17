@@ -1,0 +1,19 @@
+create database ProductSellingDB_Gimhana;
+
+use ProductSellingDB_Gimhana;
+
+create table Products (
+	ProductId int primary key Identity(1,1),
+	Name Varchar(255),
+	Description varchar(255),
+	Price Decimal(10,2),
+	Quantity int,
+	ImageUrl Varchar(255)
+);
+
+
+select * from Products;
+
+insert into Products values 
+	('ABC', 'ABC DESC', 100.00, 50, 'abc.jpg'),
+	('XYZ', 'XYZ DESC', 200.00, 50, 'xyz.jpg');
