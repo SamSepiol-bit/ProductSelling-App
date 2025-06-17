@@ -1,3 +1,3 @@
-Install this package Ypur Project
+Install this package Your Project
 
 <h1>Install-Pakage EntityFramework -Version 6.4.4</h1>
